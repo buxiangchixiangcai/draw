@@ -43,6 +43,9 @@
         <mxCell id="q8sWcmYNIx5LlEF0eHOc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q8sWcmYNIx5LlEF0eHOc-2" target="q8sWcmYNIx5LlEF0eHOc-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="q8sWcmYNIx5LlEF0eHOc-15" value="优化器虽然不关心使用什么存储引擎，但是存储引擎会影响优化器最终得到的执行计划，影响优化器的决策。因为优化器使用的算法是基于成本的算法，优化器会向存储引擎获取一些统计信息，例如某个操作的耗时" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="160" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
