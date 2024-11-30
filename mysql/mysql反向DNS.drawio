@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2">
   <diagram name="第 1 页" id="qgsKICwK5SenJctQfdlv">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uPyDmEctpxqSlNjkAT5i-1" target="uPyDmEctpxqSlNjkAT5i-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-1" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;客户端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uPyDmEctpxqSlNjkAT5i-2" target="uPyDmEctpxqSlNjkAT5i-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-2" value="MySQL服务器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="780" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-3" value="&lt;div&gt;IP:193.24.12.5&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-5" value="DNS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uPyDmEctpxqSlNjkAT5i-1" target="uPyDmEctpxqSlNjkAT5i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uPyDmEctpxqSlNjkAT5i-2" target="uPyDmEctpxqSlNjkAT5i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-8" value="&amp;nbsp;1、DNS解析:&lt;div&gt;域名-&amp;gt;IP&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="233" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-9" value="2、请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="328" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-10" value="3、DNS反向解析：&lt;div&gt;IP-&amp;gt;域名&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="233" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-11" value="user" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="990" y="325" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-13" value="4、鉴权" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-14" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;这里域名是Mysql服务器的域名转换为相应机器的IP(127.20.3.10)&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-15" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;这里的IP是客户端的IP(193.24.12.5)转化为相应的域名&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uPyDmEctpxqSlNjkAT5i-16" value="&lt;div&gt;IP:127.20.3.10&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
