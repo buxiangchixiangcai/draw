@@ -1,9 +1,129 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="c-J9mBp_pN7kx_Gn5U37">
-    <mxGraphModel>
+    <mxGraphModel dx="1482" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yMbFCH30LQ-mnXPwizZb-1" target="yMbFCH30LQ-mnXPwizZb-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-1" value="Jedis&lt;div&gt;&amp;lt;String类型&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-2" value="redis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="410" y="320" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-3" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-4" value="服务端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-6" value="String-&amp;gt; byte[]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-9" value="单机模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="255" width="640" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="299" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="300" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-17" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;服务端：&lt;/span&gt;redis集群" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="265" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-18" value="redis单机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="310" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-20" value="redis单机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="310" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-21" value="redis单机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="370" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-22" value="redis单机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="369" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-23" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;客户端：JedisCluster&amp;lt;String&amp;gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="269" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-25" value="JedisClusterConnectionHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="319" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-27" value="获取存储到集群中的哪个节点，返回一个Jedis" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="308" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yMbFCH30LQ-mnXPwizZb-28" target="yMbFCH30LQ-mnXPwizZb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-28" value="获取到的Jedis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="370" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.312;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yMbFCH30LQ-mnXPwizZb-25" target="yMbFCH30LQ-mnXPwizZb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-32" value="String-&amp;gt; byte[]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="359" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-33" value="集群模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="500" width="640" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="544" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="545" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-37" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;服务端：&lt;/span&gt;redis集群" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="510" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-38" value="redis单机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="555" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-39" value="redis单机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="555" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-40" value="redis单机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="615" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-41" value="redis单机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="614" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-42" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;客户端：BinaryJedisCluster&amp;lt;byte[]&amp;gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="514" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-43" value="JedisClusterConnectionHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="564" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-44" value="获取存储到集群中的哪个节点，返回一个Jedis" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="553" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yMbFCH30LQ-mnXPwizZb-46" target="yMbFCH30LQ-mnXPwizZb-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-46" value="获取到的Jedis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="615" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.312;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yMbFCH30LQ-mnXPwizZb-43" target="yMbFCH30LQ-mnXPwizZb-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-49" value="与redis集群连接，&lt;div&gt;选择存储到哪个节点，&lt;/div&gt;&lt;div&gt;路由的作用&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="533" width="144" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="yMbFCH30LQ-mnXPwizZb-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yMbFCH30LQ-mnXPwizZb-43" target="yMbFCH30LQ-mnXPwizZb-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
