@@ -1,9 +1,129 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="第 1 页" id="_BheHTi8lk0kYmW53c2D">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTqGtvLuzdz00bwFUkbi-13" target="dTqGtvLuzdz00bwFUkbi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="190" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-2" value="redis主服务器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTqGtvLuzdz00bwFUkbi-4" target="dTqGtvLuzdz00bwFUkbi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-4" value="redis从服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTqGtvLuzdz00bwFUkbi-5" target="dTqGtvLuzdz00bwFUkbi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-5" value="redis从服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-10" value="哨兵&lt;div&gt;（leader）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-11" value="哨兵1（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-12" value="哨兵2（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-15" value="1、哨兵时刻监控&lt;div&gt;所有&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;redis实例&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-16" value="slaveof命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-17" value="slaveof命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTqGtvLuzdz00bwFUkbi-19" target="dTqGtvLuzdz00bwFUkbi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="470" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="470" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-21" value="redis主服务器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTqGtvLuzdz00bwFUkbi-23" target="dTqGtvLuzdz00bwFUkbi-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-23" value="redis从服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="600" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTqGtvLuzdz00bwFUkbi-25" target="dTqGtvLuzdz00bwFUkbi-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-25" value="redis从服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="600" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-26" value="哨兵&lt;div&gt;（leader）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-27" value="哨兵1（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-28" value="哨兵2（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-29" value="2、redis主服务器挂了，&lt;div&gt;哨兵就会标记客观下线，&lt;/div&gt;&lt;div&gt;然后选举新的主服务器，&lt;/div&gt;&lt;div&gt;哨兵leader进行通知&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="515" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-30" value="slaveof命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="560" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-31" value="slaveof命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="560" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTqGtvLuzdz00bwFUkbi-33" target="dTqGtvLuzdz00bwFUkbi-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="730" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="730" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-35" value="redis主服务器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="760" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-37" value="redis主服务器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="130" y="860" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTqGtvLuzdz00bwFUkbi-39" target="dTqGtvLuzdz00bwFUkbi-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-39" value="redis从服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="860" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-40" value="哨兵&lt;div&gt;（leader）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-41" value="哨兵1（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-42" value="哨兵2（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-45" value="slaveof命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="830" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-48" value="哨兵leader根据raft算法选取出来" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
