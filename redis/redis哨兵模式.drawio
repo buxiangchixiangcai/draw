@@ -28,7 +28,7 @@
         <mxCell id="dTqGtvLuzdz00bwFUkbi-5" value="redis从服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="320" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dTqGtvLuzdz00bwFUkbi-10" value="哨兵&lt;div&gt;（leader）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-10" value="哨兵&lt;div&gt;（leader）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="610" y="210" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dTqGtvLuzdz00bwFUkbi-11" value="哨兵1（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -70,7 +70,7 @@
         <mxCell id="dTqGtvLuzdz00bwFUkbi-25" value="redis从服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="600" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dTqGtvLuzdz00bwFUkbi-26" value="哨兵&lt;div&gt;（leader）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-26" value="哨兵&lt;div&gt;（leader）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="610" y="490" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dTqGtvLuzdz00bwFUkbi-27" value="哨兵1（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -109,7 +109,7 @@
         <mxCell id="dTqGtvLuzdz00bwFUkbi-39" value="redis从服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="860" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dTqGtvLuzdz00bwFUkbi-40" value="哨兵&lt;div&gt;（leader）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-40" value="哨兵&lt;div&gt;（leader）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="610" y="750" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dTqGtvLuzdz00bwFUkbi-41" value="哨兵1（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
