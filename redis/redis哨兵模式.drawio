@@ -79,8 +79,8 @@
         <mxCell id="dTqGtvLuzdz00bwFUkbi-28" value="哨兵2（follower）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="670" y="580" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dTqGtvLuzdz00bwFUkbi-29" value="2、redis主服务器挂了，&lt;div&gt;哨兵就会标记客观下线，&lt;/div&gt;&lt;div&gt;然后选举新的主服务器，&lt;/div&gt;&lt;div&gt;哨兵leader进行通知&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="385" y="515" width="160" height="70" as="geometry" />
+        <mxCell id="dTqGtvLuzdz00bwFUkbi-29" value="2、redis主服务器挂了，&lt;div&gt;哨兵就会标记客观下线，&lt;/div&gt;&lt;div&gt;然后根据优先级、延迟程度&lt;/div&gt;&lt;div&gt;等等&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;选举新的主服务器，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;哨兵leader进行通知&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="505" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dTqGtvLuzdz00bwFUkbi-30" value="slaveof命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="290" y="560" width="75" height="30" as="geometry" />
