@@ -1,9 +1,46 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="第 1 页" id="mD-z9uaeW9N1P3C1reOw">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_eS0KNGwUIOyez10mfw8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_eS0KNGwUIOyez10mfw8-1" target="_eS0KNGwUIOyez10mfw8-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="290" />
+              <mxPoint x="340" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eS0KNGwUIOyez10mfw8-1" value="redis客户端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_eS0KNGwUIOyez10mfw8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_eS0KNGwUIOyez10mfw8-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eS0KNGwUIOyez10mfw8-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="130" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_eS0KNGwUIOyez10mfw8-3" value="redis服务端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_eS0KNGwUIOyez10mfw8-4" value="解析为redisObject" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_eS0KNGwUIOyez10mfw8-6" value="resp协议" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_eS0KNGwUIOyez10mfw8-7" value="逻辑处理，如set命令、get命令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_eS0KNGwUIOyez10mfw8-8" value="获得redisObject返回结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
