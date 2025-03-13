@@ -44,7 +44,16 @@
           <mxGeometry x="354" y="280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aiFn7cLQpYImXhf1txMJ-14" value="数据库号&lt;div&gt;1、2、5字节&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="280" width="60" height="30" as="geometry" />
+          <mxGeometry x="425" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiFn7cLQpYImXhf1txMJ-15" value="所有键值对，带有过期时间。&lt;div&gt;长度不定&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aiFn7cLQpYImXhf1txMJ-16" value="常量1字节&lt;div&gt;结束标志&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="815" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiFn7cLQpYImXhf1txMJ-17" value="8字节&lt;div&gt;校验和&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="885" y="285" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
