@@ -34,6 +34,18 @@
         <mxCell id="aiFn7cLQpYImXhf1txMJ-10" value="check_sum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="230" width="70" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="aiFn7cLQpYImXhf1txMJ-11" value="5字节" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiFn7cLQpYImXhf1txMJ-12" value="4字节：RDB文件版本" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="280" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiFn7cLQpYImXhf1txMJ-13" value="常量&lt;div&gt;1字节&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiFn7cLQpYImXhf1txMJ-14" value="数据库号&lt;div&gt;1、2、5字节&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
