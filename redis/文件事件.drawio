@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WEPxCPaArc02_F0mAaYA-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="220" width="310" height="260" as="geometry" />
+        <mxCell id="WEPxCPaArc02_F0mAaYA-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="550" height="280" as="geometry" />
         </mxCell>
         <mxCell id="WEPxCPaArc02_F0mAaYA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEPxCPaArc02_F0mAaYA-1" target="WEPxCPaArc02_F0mAaYA-6">
           <mxGeometry relative="1" as="geometry" />
@@ -22,10 +22,10 @@
         <mxCell id="WEPxCPaArc02_F0mAaYA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEPxCPaArc02_F0mAaYA-6" target="WEPxCPaArc02_F0mAaYA-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WEPxCPaArc02_F0mAaYA-6" value="IO多路复用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WEPxCPaArc02_F0mAaYA-6" value="IO多路复用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="340" y="250" width="50" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="WEPxCPaArc02_F0mAaYA-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+        <mxCell id="WEPxCPaArc02_F0mAaYA-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="431" y="260" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WEPxCPaArc02_F0mAaYA-11" value="socket3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -34,11 +34,41 @@
         <mxCell id="WEPxCPaArc02_F0mAaYA-12" value="socket2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="265" width="50" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WEPxCPaArc02_F0mAaYA-13" target="WEPxCPaArc02_F0mAaYA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WEPxCPaArc02_F0mAaYA-13" value="socket1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="265" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WEPxCPaArc02_F0mAaYA-14" value="请求队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="485" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-15" value="文件事件分发器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="345" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-17" value="连接应答处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="420" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-18" value="命令请求处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="420" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-19" value="响应回复处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-21" value=".....处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="738" y="420" width="72" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.54;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WEPxCPaArc02_F0mAaYA-15" target="WEPxCPaArc02_F0mAaYA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-23" value="处理器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;连接应答处理器：为连接创建Client对象（输入、输出缓冲区等）、将可读状态绑定到命令请求处理器并注册到IO多路复用模块&lt;div&gt;命令请求处理器：从输入缓冲区读取数据，解析命令、执行命令，将执行结果写入到输出缓冲区中，并将可写状态与响应回复处理器绑定注册到&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IO多路复用模块&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;响应回复处理器：将client上的输出缓冲区通过socket发送给客户端，并取消&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IO多路复用模块的可写状态监听&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="590" y="540" width="270" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
