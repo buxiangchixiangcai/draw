@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="7MPilUSL-rlrya2jQimz">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WEPxCPaArc02_F0mAaYA-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="310" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEPxCPaArc02_F0mAaYA-1" target="WEPxCPaArc02_F0mAaYA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-1" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEPxCPaArc02_F0mAaYA-4" target="WEPxCPaArc02_F0mAaYA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-4" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEPxCPaArc02_F0mAaYA-6" target="WEPxCPaArc02_F0mAaYA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-6" value="IO多路复用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="431" y="260" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-11" value="socket3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="265" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-12" value="socket2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="265" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-13" value="socket1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="265" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WEPxCPaArc02_F0mAaYA-14" value="请求队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
