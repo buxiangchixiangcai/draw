@@ -10,8 +10,23 @@
         <mxCell id="B5p7FsAqRLIVTu6vf_ON-1" value="启动服务器" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="380" y="180" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="B5p7FsAqRLIVTu6vf_ON-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5p7FsAqRLIVTu6vf_ON-2" target="B5p7FsAqRLIVTu6vf_ON-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="B5p7FsAqRLIVTu6vf_ON-2" value="服务器初始化" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="380" y="250" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B5p7FsAqRLIVTu6vf_ON-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5p7FsAqRLIVTu6vf_ON-4" target="B5p7FsAqRLIVTu6vf_ON-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5p7FsAqRLIVTu6vf_ON-4" value="服务器是否&lt;div&gt;关闭&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B5p7FsAqRLIVTu6vf_ON-6" value="关闭服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B5p7FsAqRLIVTu6vf_ON-8" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="340" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
