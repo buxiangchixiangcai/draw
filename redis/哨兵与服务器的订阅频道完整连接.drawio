@@ -26,6 +26,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="t9CO3D12Cs2sGGwrZuHY-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="H9NwCvbB6OWwvC9mkvmZ-1" target="H9NwCvbB6OWwvC9mkvmZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H9NwCvbB6OWwvC9mkvmZ-1" value="sentinel1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="224" y="240" width="80" height="50" as="geometry" />
         </mxCell>
@@ -69,6 +72,9 @@
               <mxPoint x="264" y="310" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t9CO3D12Cs2sGGwrZuHY-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="H9NwCvbB6OWwvC9mkvmZ-3" target="H9NwCvbB6OWwvC9mkvmZ-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H9NwCvbB6OWwvC9mkvmZ-3" value="sentinel3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="500" y="240" width="80" height="50" as="geometry" />
