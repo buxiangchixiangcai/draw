@@ -20,13 +20,10 @@
           <mxGeometry x="280" y="250" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SYI_DHDsVVhUefW7UPwv-6" value="容器2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="70" height="50" as="geometry" />
+          <mxGeometry x="280" y="310" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SYI_DHDsVVhUefW7UPwv-8" value="pod" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SYI_DHDsVVhUefW7UPwv-8" value="pod1&lt;div&gt;IP:10.0.0.1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="135" y="370" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SYI_DHDsVVhUefW7UPwv-9" value="pod" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="285" y="370" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SYI_DHDsVVhUefW7UPwv-10" value="宿主机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="450" width="60" height="30" as="geometry" />
@@ -39,6 +36,9 @@
         </mxCell>
         <mxCell id="SYI_DHDsVVhUefW7UPwv-13" value="进程1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="123" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SYI_DHDsVVhUefW7UPwv-15" value="pod2&lt;div&gt;IP:10.0.0.2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="370" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
