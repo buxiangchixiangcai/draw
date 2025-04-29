@@ -23,10 +23,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4_XccgdZTiEhuxTs1x7G-3" value="管理pod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="349" y="320" width="130" height="50" as="geometry" />
+          <mxGeometry x="330" y="320" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4_XccgdZTiEhuxTs1x7G-4" value="replication controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="356" y="290" width="116" height="30" as="geometry" />
+          <mxGeometry x="337" y="290" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4_XccgdZTiEhuxTs1x7G-7" value="pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="260" width="70" height="40" as="geometry" />
