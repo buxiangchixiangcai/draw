@@ -82,7 +82,7 @@
         <mxCell id="7dZvwmrXYKT28rzgf9l6-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="7dZvwmrXYKT28rzgf9l6-26" target="7dZvwmrXYKT28rzgf9l6-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7dZvwmrXYKT28rzgf9l6-26" value="持久卷&lt;div&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; text-align: start; white-space: pre;&quot;&gt;&lt;font style=&quot;&quot;&gt;ebs-pv&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="7dZvwmrXYKT28rzgf9l6-26" value="持久卷&lt;div&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; text-align: start; white-space: pre;&quot;&gt;&lt;font style=&quot;&quot;&gt;ebs-pv&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="619" y="683.75" width="70" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="7dZvwmrXYKT28rzgf9l6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7dZvwmrXYKT28rzgf9l6-25" target="7dZvwmrXYKT28rzgf9l6-26">
