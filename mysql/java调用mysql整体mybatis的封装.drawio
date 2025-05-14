@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="第 1 页" id="3TT_d5ht2H0iIXU0HfkV">
-    <mxGraphModel>
+    <mxGraphModel dx="1018" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-1" value="findUserById()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-2" value="mapper接口:UserInfoService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="190" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-3" value="mapper对应的xml配置" style="shape=card;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="670" y="200" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-5" value="UserInfoServiceProxy extend Proxy implements UserInfoService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vtBKAXl8VFrYsNdEjl44-6" target="vtBKAXl8VFrYsNdEjl44-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-6" value="findUserById()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vtBKAXl8VFrYsNdEjl44-7" target="vtBKAXl8VFrYsNdEjl44-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-7" value="MapperProxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="284" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vtBKAXl8VFrYsNdEjl44-9" target="vtBKAXl8VFrYsNdEjl44-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-9" value="java" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="247.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="155" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vtBKAXl8VFrYsNdEjl44-14" target="vtBKAXl8VFrYsNdEjl44-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vtBKAXl8VFrYsNdEjl44-14" target="vtBKAXl8VFrYsNdEjl44-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-14" value="invoke()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-15" value="invocationHandler" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-16" value="1、通过方法名findUserById查询mapper对应的xml配置【在程序启动的时候就已经保存好了xml配置】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="375" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-18" value="2、执行executor中相关方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="470" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vtBKAXl8VFrYsNdEjl44-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vtBKAXl8VFrYsNdEjl44-16" target="vtBKAXl8VFrYsNdEjl44-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
