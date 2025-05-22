@@ -31,6 +31,12 @@
         <mxCell id="VXURBPU4Amz-J4X_6pdN-8" value="pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="300" width="90" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="VXURBPU4Amz-J4X_6pdN-10" value="域名" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VXURBPU4Amz-J4X_6pdN-11" value="clusterIP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
